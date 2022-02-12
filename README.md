@@ -15,10 +15,9 @@ REST api to order drinks in a fake starbucks
 ## Tutorial
 - **You can request any number of Drinks**
 - **You can request any number of Extras for each Drink**
-- **You can request any number of Drinks**
 
 The next example provides you with a valid request when making an order.
-
+### Request
 ```json
 {
     "drinks":[
@@ -54,5 +53,31 @@ The next example provides you with a valid request when making an order.
     "payment_details":{
         "ammount": 20
     }
+}
+```
+
+### Response
+When buyer have enough money for the order
+```json
+{
+    "message": "Thanks for your purchase. Here is your exchange: 7.10"
+}
+```
+When buyer doesn't have enough money for the order
+```json
+{
+    "message": "Insufficient funds. Order total is: 12.90"
+}
+```
+When buyer requests an item that has notenough stock
+```json
+{
+    "message": "We don't have enough stock to provide you all the 'Latte's that you want."
+}
+```
+When buyer requests an item that is not on the menu
+```json
+{
+    "message": "We don't have one of the items you are trying to buy. Please try another store."
 }
 ```
