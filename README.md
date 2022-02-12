@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Starbucks
 
 REST api to order drinks in a fake starbucks
@@ -81,3 +82,6 @@ When buyer requests an item that is not on the menu
     "message": "We don't have one of the items you are trying to buy. Please try another store."
 }
 ```
+=======
+
+>>>>>>> 90abddd313305da17efc204db8507a6f270b9978
