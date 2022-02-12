@@ -1,3 +1,41 @@
+```json
+{
+    "drinks":[
+        {
+            "id":1,
+            "quantity":1,
+            "extras":[
+                {
+                    "id":1,
+                    "quantity":2
+                },
+                {
+                    "id": 1,
+                    "quantity":1
+                }
+            ]
+        },
+        {
+            "id":10,
+            "quantity":1,
+            "extras":[
+                {
+                    "id":2,
+                    "quantity":1
+                },
+                {
+                    "id":3,
+                    "quantity":2
+                }
+            ]
+        }
+    ],
+    "payment_details":{
+        "ammount": 20
+    }
+}
+```
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
