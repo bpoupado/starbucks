@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## Starbucks
 
 REST api to order drinks in a fake starbucks
@@ -8,12 +7,13 @@ REST api to order drinks in a fake starbucks
 - **Setup .env file on root folder with your database credentials**
 - **To migrate and populate the database for testing purposes run the command "php artisan migrate:refresh --seed"**
 - **[All methods can be found in the Postman Collection provided in this link](https://we.tl/t-EnlhMcytyz)**
+
+## Tutorial
 - **"categories endpoint" for Product Categories CRUD**
 - **"products endpoint" for Products CRUD**
 - **"extras endpoint" for Product Extras CRUD**
 - **"orders endpoint" for ordering on the shop**
 
-## Tutorial
 - **You can request any number of Drinks**
 - **You can request any number of Extras for each Drink**
 
@@ -82,6 +82,3 @@ When buyer requests an item that is not on the menu
     "message": "We don't have one of the items you are trying to buy. Please try another store."
 }
 ```
-=======
-
->>>>>>> 90abddd313305da17efc204db8507a6f270b9978
